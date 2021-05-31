@@ -1,0 +1,73 @@
+:root {
+    --size-divisor: 3;
+  }
+.container {
+    background-color: gray;
+    padding: 1em;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto
+}
+.display {
+    background: white;
+    border-radius: 5px;
+    color: black;
+    max-width: 500px;
+    margin: 2rem auto;
+    height: 25%;
+    text-align: center;
+    border: 5px solid black;
+}
+.displayButtons {
+    transition-duration: 0.4s;
+    max-width: 400px;
+    
+}
+.clear {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    margin-left: 50%;
+}
+.clear:hover {
+    background-color: #555555;
+    color: white;
+}
+.backspace {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+.backspace:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.buttons {
+    background: white;
+    border: 5px solid black;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 2px;
+}
+
+.numbers {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.numbers:hover {
+    background-color: #555555;
+    color: white;
+}
